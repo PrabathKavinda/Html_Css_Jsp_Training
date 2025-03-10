@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: crimson;
+}
+
+.btn{
+    border: none;
+    padding: 1rem 4rem;
+    background: rgba(19,16,120,0.911);
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -10px;
+    left: -10px;
+    background: teal;
+}
